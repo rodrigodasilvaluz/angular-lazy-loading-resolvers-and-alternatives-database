@@ -50,6 +50,13 @@ Run `npm run server` for a dev api. Navigate to `http://localhost:3000` and `htt
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+Code scaffolding command lines used in the terminal, to generate modules with lazy-loading and resolvers
+
+```powershell
+ng generate module pages/home --route home --module app.module
+ng generate resolver pages/customers/customers
+```
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
