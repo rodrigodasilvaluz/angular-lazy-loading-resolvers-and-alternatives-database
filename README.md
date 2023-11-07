@@ -52,7 +52,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Code scaffolding command lines used in the terminal, to generate modules with lazy-loading and resolvers
 
-```powershell
+```bash
 ng generate module pages/home --route home --module app.module
 ng generate resolver pages/customers/customers
 ```
