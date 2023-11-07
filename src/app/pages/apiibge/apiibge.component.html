@@ -1,0 +1,7 @@
+<p>apiibge works!</p>
+<div *ngIf="apiibge.error">Ocorreu um erro: {{ apiibge.error }}</div>
+<ul *ngIf="apiibge.success">
+  <li *ngFor="let item of apiibge.success.items">
+    {{ item.titulo }}
+  </li>
+</ul>

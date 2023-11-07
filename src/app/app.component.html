@@ -1,0 +1,10 @@
+<div *ngIf="isLoading" class="loading">
+  <article ngClass="card">
+    <p>Carregando</p>
+  </article>
+</div>
+<a [routerLink]="['/']" routerLinkActive="router-link-active">Apiibge</a> |
+<a [routerLink]="['/jsonserver']" routerLinkActive="router-link-active">Jsonserver</a> |
+<a [routerLink]="['/jsonplaceholder']" routerLinkActive="router-link-active">Jsonplaceholder</a> |
+<a [routerLink]="['/websql']" routerLinkActive="router-link-active">Websql</a>
+<router-outlet></router-outlet>

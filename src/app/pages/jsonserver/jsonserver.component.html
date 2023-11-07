@@ -1,0 +1,7 @@
+<p>jsonserver works!</p>
+<div *ngIf="jsonserver.error">Ocorreu um erro: {{ jsonserver.error }}</div>
+<ul *ngIf="jsonserver.success">
+  <li *ngFor="let item of jsonserver.success">
+    {{ item.name }}
+  </li>
+</ul>

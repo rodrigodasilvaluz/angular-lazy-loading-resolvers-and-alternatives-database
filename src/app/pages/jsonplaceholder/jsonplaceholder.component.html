@@ -1,0 +1,7 @@
+<p>jsonplaceholder works!</p>
+<div *ngIf="jsonplaceholder.error">Ocorreu um erro: {{ jsonplaceholder.error }}</div>
+<ul *ngIf="jsonplaceholder.success">
+  <li *ngFor="let item of jsonplaceholder.success">
+    {{ item.title }}
+  </li>
+</ul>

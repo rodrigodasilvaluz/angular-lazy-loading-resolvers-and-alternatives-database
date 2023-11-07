@@ -1,0 +1,7 @@
+<p>websql works!</p>
+<div *ngIf="websql.error">Ocorreu um erro: {{ websql.error }}</div>
+<ul *ngIf="websql.success">
+  <li *ngFor="let item of websql.success">
+    {{ item.title }}
+  </li>
+</ul>
